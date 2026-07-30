@@ -7,8 +7,10 @@ The purpose of this repository is to track my learning progress in modern HTML5,
 
 ## 📂 Project Structure
 *   **01-lasagna-recipe**: Basic HTML structure, semantic elements, and semantic nesting.
-*   *(More projects will be added as I progress)*
 
 ## 🛠️ Tech Stack
 *   HTML5 (Semantic and Accessible)
 *   CSS3 (Flexbox / Grid)
+  
+---
+*(More projects will be added as I progress)*
