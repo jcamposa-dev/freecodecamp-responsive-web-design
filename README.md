@@ -9,9 +9,9 @@ The purpose of this repository is to track my learning progress in modern HTML5,
 *   **01-lasagna-recipe**: Basic HTML structure, semantic elements, and semantic nesting.
 
 ## 🛠️ Tech Stack
-**HTML5**: Semantic markup and media nesting (`<audio>`, `<video>`, `<figure>`).
-**CSS3**: Responsive layouts and multi-screen optimization.
-**Accessibility**: WCAG standards for inclusive user experiences.
-**UX/CRO**: Minimalist code structures focused on reducing user friction.
+* **HTML5**: Semantic markup and media nesting (`<audio>`, `<video>`, `<figure>`).
+* **CSS3**: Responsive layouts and multi-screen optimization.
+* **Accessibility**: WCAG standards for inclusive user experiences.
+* **UX/CRO**: Minimalist code structures focused on reducing user friction.
 ---
 *(More projects will be added as I progress)*
