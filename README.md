@@ -13,9 +13,10 @@ The purpose of this repository is to track my learning progress in modern HTML5,
 *   **05-costa-rica-travel-guide**: Semantic multi-video dashboard bypassing privacy-blocking environments via secure iframe curation. _(Skills: Third-Party Embeds, Iframe Accessibility, Content Hierarchies)_
 *   **06-build-an-event-hub**: Semantic event directory dividing future and past concerts with precise time validation and accessible imagery. _(Skills: HTML5 Semantics, Time Element (ISO 8601), Web Accessibility (ALT text), Layout Architecture)_
 *   **07-build-a-book-catalog-table**: Structured data matrix featuring seamless header mapping, scoped rows, and summarized aggregate footers. _(Skills: HTML Table Semantics, Data Alignment, Colspan Management, Information Architecture)_
+*   **08-build-a-survey-form**: Highly accessible data collection form utilizing multi-line formatting, explicit label mapping, and structured semantic groups. _(Skills: HTML Form Semantics, Advanced Accessibility (WCAG), Fieldset/Legend Architecture, UX/CRO Friction Reduction)_
 
 ## 🛠️ Tech Stack
-* **HTML5**: Semantic markup and media nesting (`<audio>`, `<video>`, `<figure>`, `<iframe>`).
+* **HTML5**: Semantic markup, advanced forms (`<fieldset>`, `<legend>`, `<textarea>`), and media nesting.
 * **CSS3**: Responsive layouts and multi-screen optimization.
 * **Accessibility**: WCAG standards for inclusive user experiences (Descriptive frames).
 * **UX/CRO**: Minimalist code structures focused on reducing user friction.

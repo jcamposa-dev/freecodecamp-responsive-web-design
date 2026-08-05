@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">Community Opinions Survey</h1>
+    <p id="description">We appreciate your feedback to make our website better.</p>
+  
+    <form id="survey-form">
+
+       <div class="form-group">
+       <label id="name-label" for="name">Name</label>
+       <input 
+        id="name" 
+        type="text" 
+        required
+        placeholder="Enter your name"
+       >
+       </input>
+       </div>
+
+       <div class="form-group">
+       <label id="email-label" for="email">Email</label>
+       <input 
+        id="email" 
+        type="email" 
+        required
+        placeholder="Enter your email"
+       >
+       </input>
+       </div>
+
+      <div class="form-group">
+      <label id="number-label" for="number">Age (optional)</label>
+      <input 
+        type="number" id="number"
+        max="100"
+        min="15"
+        placeholder="Age"
+      >
+       </input>
+       </div>
+
+      <div class="form-group">
+      <label for="dropdown">What is your primary current occupation?</label>
+      <select id="dropdown" name="role" class="form-control" required>
+        <option selected disable value>Choose your occupation</option>
+        <option>Employed (Full-time / Part-time)</option>
+        <option>Not currently employed</option>
+      </select>
+      </div>
+
+      <div class="form-group">
+        <fieldset>
+          <legend>How likely are you to suggest this platform to others?</legend>
+        
+          <input type="radio" id="rec-definitely" name="recommend" value="definitely">
+          <label for="rec-definitely">Definitely</label>
+        
+          <input type="radio" id="rec-maybe" name="recommend" value="maybe">
+          <label for="rec-maybe">Maybe</label>
+
+          <input type="radio" id="rec-not-sure" name="recommend" value="not-sure">
+          <label for="rec-not-sure">Not sure</label>
+        </fieldset>
+      </div>
+
+      <div class="form-group">
+        <fieldset>
+          <label for="">Which areas need future enhancements? (Select multiple)</label>
+
+          <input id="client-side" type="checkbox" value="client-side">
+          <label for="client-side">Client-Side Exercises</label>
+
+          <input id="server-side" type="checkbox" value="server-side">
+          <label for="server-side">Server-Side Challenges</label>
+
+          <input id="data-charts" type="checkbox" value="data-charts">
+          <label for="data-charts">Data Charts & Graphics</label>
+
+          <input id="coding-exercisse" type="checkbox" value="coding-exercisse">
+          <label for="coding-exercisse">Coding Exercises</label>
+
+          <input id="public-cont" type="checkbox" value="public-cont">
+          <label for="public-cont">Public Contributions</label>
+
+          <input id="supp-chatrooms" type="checkbox" value="supp-chatrooms">
+          <label for="supp-chatrooms">Support Chatrooms</label>
+          <?fieldset>
+      </div>
+        
+      <div class="form-group">
+        <label for="feedback">Share any additional thoughts or feedback:<label>
+        <textarea 
+          placeholder="Enter your comments here"
+          id="feedback"
+          name="user_feedback"
+          rows="5"
+          cols="30"
+          maxlength="150"
+        >
+        </textarea>
+      </div>
+
+      <div class="form-group">
+        <button type="submit" id="submit" class="submit-button">Submit
+        </button>
+      </div>
+
+    </form>
+  </body>
+</html>
