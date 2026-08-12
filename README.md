@@ -4,7 +4,7 @@ This repository contains my daily practices, exercises, and mini-projects develo
 
 ### 🎯 Goal
 
-The purpose of this repository is to track my learning progress in modern HTML5, accessibility (WCAG), and document structuring, combining them with my experience in conversion rate optimization (CRO) and user experience (UX). 
+The purpose of this repository is to track my learning progress in modern HTML5, CSS3, accessibility (WCAG), and document structuring, combining them with my experience in conversion rate optimization (CRO) and user experience (UX). 
 
 ### 📂 Project Structure
 
@@ -19,11 +19,14 @@ The purpose of this repository is to track my learning progress in modern HTML5,
 * **009-debug-a-donation-form**: Corrected and structured donation interface ensuring precise form validation, strict label-to-input mapping, and modern click-target behaviors. *(Skills: Form Debugging, Native Validation (HTML5), Advanced Label Mapping, UX/CRO Friction Reduction)*
 * **010-build-a-checkout-page**: Secure checkout interface structure focused on complex payment forms, input grouping, and purchase friction reduction. *(Skills: Advanced Web Forms, UX/CRO Checkout Optimization, Input Formatting)*
 * **011-design-a-movie-review-page**: Semantic article structure optimized for content readability and media review hierarchies. *(Skills: Text Hierarchy, Media Content Structure, Advanced HTML5 Formatting)*
+* **012-build-a-multimedia-player**: Accessible native media player integrating synchronized caption tracking, ARIA-described layouts, and decoupled textual transcripts. *(Skills: HTML5 Multimedia API, Web Accessibility (ARIA), VTT Subtitle Integration, Semantics)*
+* **013-design-a-business-card**: High-fidelity digital business card utilizing precise block centering, flexible image constraints, and standard text decoration overrides. *(Skills: CSS Box Model, Spatial Layouts, Shorthand Properties, UI/UX Typography, Responsive Constraints)*
 
 ### 🛠️ Tech Stack
 
-* **HTML5**: Semantic markup, advanced forms (<fieldset>, <legend>, <textarea>), data tables, and media nesting.
-* **Accessibility**: WCAG standards for inclusive user experiences (Descriptive frames and alternative text).
-* **UX/CRO**: Minimalist code structures focused on reducing user friction.
+* **HTML5 & CSS3**: Semantic markup, styling sheets, advanced forms, data tables, and spatial layout properties.
+* **Layout Mechanics**: Box model configuration (border-box), auto-margins, shorthand declarations, and fluid constraint setups.
+* **Accessibility**: WCAG standards for inclusive user experiences (Descriptive frames, alternative text, accessible anchors, and ARIA labels).
+* **UX/CRO**: Minimalist code structures focused on layout performance, rich media compliance, and reducing user friction.
 
 *(More projects will be added as I progress)*
