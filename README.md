@@ -21,6 +21,8 @@ The purpose of this repository is to track my learning progress in modern HTML5,
 * **011-design-a-movie-review-page**: Semantic article structure optimized for content readability and media review hierarchies. *(Skills: Text Hierarchy, Media Content Structure, Advanced HTML5 Formatting)*
 * **012-build-a-multimedia-player**: Accessible native media player integrating synchronized caption tracking, ARIA-described layouts, and decoupled textual transcripts. *(Skills: HTML5 Multimedia API, Web Accessibility (ARIA), VTT Subtitle Integration, Semantics)*
 * **013-design-a-business-card**: High-fidelity digital business card utilizing precise block centering, flexible image constraints, and standard text decoration overrides. *(Skills: CSS Box Model, Spatial Layouts, Shorthand Properties, UI/UX Typography, Responsive Constraints)*
+* **014-build-a-stylized-to-do-list**: Accessible task directory utilizing list reset architectures, explicit interactive element alignment, and custom interactive link states. *(Skills: CSS Pseudo-classes, LVHFA Hierarchy, List Style Resets, UI/UX Micro-interactions)*
+* **015-design-a-blog-post-card**: Modern components showcasing image layouts, explicit font hierarchy overrides, and optimized spacing configurations. *(Skills: Visual Design Hierarchy, Typography Scales, Component Architecture, Content Optimization)*
 
 ### 🛠️ Tech Stack
 
