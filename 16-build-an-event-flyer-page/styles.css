@@ -1,0 +1,94 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  box-sizing: border-box;  
+  padding: 3.125rem;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 900px;
+  text-align: center;
+}
+
+main{
+    justify-content: center;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap; 
+    margin-top: 2rem;
+    width: 100%;
+}
+hr {
+  width: 100%;
+}
+
+section {
+  flex: 1 1 200px; 
+  text-align: left;  
+  font-size: 1.3rem;
+  max-width: 300px;
+  margin-bottom: 1rem;
+  width: 100%;
+  text-align: left;
+  padding-bottom: 0.3rem;
+}
+
+ul {
+  list-style-position: inside;
+  list-style-type: square;
+  padding-left: 1.2rem; 
+}
+
+img {
+  width: 100%;
+  max-width: 600px;       
+  aspect-ratio: 16 / 9;   
+  object-fit: cover;      
+  display: block;
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+  margin-inline: auto;
+}
+
+li {
+    margin-bottom: 0.5rem; 
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background: #ddd;
+  margin: 1.5rem 0;
+}
+
+footer {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+section h2 {
+  margin-bottom: 0.5em;
+}
+
+header {
+  margin-bottom: 2.5em;   
+}
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5em; 
+  color: #8b5a2b; 
+}
+
+header b {
+    color: #8b5a2b;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 0.5em;
+}

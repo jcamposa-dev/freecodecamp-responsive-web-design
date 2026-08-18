@@ -23,6 +23,9 @@ The purpose of this repository is to track my learning progress in modern HTML5,
 * **013-design-a-business-card**: High-fidelity digital business card utilizing precise block centering, flexible image constraints, and standard text decoration overrides. *(Skills: CSS Box Model, Spatial Layouts, Shorthand Properties, UI/UX Typography, Responsive Constraints)*
 * **014-build-a-stylized-to-do-list**: Accessible task directory utilizing list reset architectures, explicit interactive element alignment, and custom interactive link states. *(Skills: CSS Pseudo-classes, LVHFA Hierarchy, List Style Resets, UI/UX Micro-interactions)*
 * **015-design-a-blog-post-card**: Modern components showcasing image layouts, explicit font hierarchy overrides, and optimized spacing configurations. *(Skills: Visual Design Hierarchy, Typography Scales, Component Architecture, Content Optimization)*
+* **016-build-an-event-flyer-page**: A responsive visual flyer built with deep structural CSS rules, fluid image framing, and optimized typographic scales to maximize visual engagement. *(Skills: Typography Frameworks, Image Layout Constraints, Visual Hierarchy Design)*
+* **017-build-a-job-application-form**: A production-ready semantic application form structured into isolated CSS architecture blocks to eliminate specificity friction, utilizing real-time native validation states for seamless user feedback. *(Skills: CSS Architecture ("Mental Boxes"), Native HTML5 Validation (:valid/:invalid), Advanced Pseudo-classes, UX/CRO Friction Reduction)*
+
 
 ### 🛠️ Tech Stack
 
