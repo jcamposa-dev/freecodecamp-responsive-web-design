@@ -26,12 +26,19 @@ The purpose of this repository is to track my learning progress in modern HTML5,
 * **016-build-an-event-flyer-page**: A responsive visual flyer built with deep structural CSS rules, fluid image framing, and optimized typographic scales to maximize visual engagement. *(Skills: Typography Frameworks, Image Layout Constraints, Visual Hierarchy Design)*
 * **017-build-a-job-application-form**: A production-ready semantic application form structured into isolated CSS architecture blocks to eliminate specificity friction, utilizing real-time native validation states for seamless user feedback. *(Skills: CSS Architecture ("Mental Boxes"), Native HTML5 Validation (:valid/:invalid), Advanced Pseudo-classes, UX/CRO Friction Reduction)*
 * **018-build-a-colored-boxes-grid**: A high-conversion visual matrix showcasing deep color-theory manipulation, utilizing advanced fluid layout mechanics (Flexbox) to bypass native block-stacking friction and guarantee pixel-perfect responsive proportions. *(Skills: Flexbox Architecture (flex: 1), Layout Physics (Gap over Margin), Spatial Micro-interactions (3D Scale/Shadow Hover), Color Harmonies)*
+* **019-design-a-contact-form**: A highly interactive contact form utilizing pure CSS state mechanics (`:target`) to deploy elastic modal architectures and micro-interactions without JavaScript dependency, fully optimized for inclusive access. *(Skills: Pure CSS State Engineering, Spatial Physics (Inverted Input-to-Button Movement), Web Accessibility (A11y/:focus-visible), Temporal Curves (Cubic-Bezier Elasticity), Boundary Mechanics (Pointer-Events))*
+
+
+### 🛠️ Tech Stack
 
 ### 🛠️ Tech Stack
 
 * **HTML5 & CSS3**: Semantic markup, styling sheets, advanced forms, data tables, and spatial layout properties.
-* **Layout Mechanics**: Box model configuration (border-box), auto-margins, shorthand declarations, and fluid constraint setups.
-* **Accessibility**: WCAG standards for inclusive user experiences (Descriptive frames, alternative text, accessible anchors, and ARIA labels).
-* **UX/CRO**: Minimalist code structures focused on layout performance, rich media compliance, and reducing user friction.
+* **Layout Mechanics**: Box model configuration (border-box), auto-margins, shorthand declarations, Flexbox architectures (`flex: 1`), and fluid layout constraints.
+* **CSS State Engineering & Micro-interactions**: Pure CSS state manipulation via advanced pseudo-classes (`:target`, `:focus-visible`, `:active`), physical layout inversions (`translateY` / `scale`), and boundary control properties (`pointer-events`).
+* **Animation & Temporal Physics**: Hardware-accelerated transitions utilizing custom mathematical velocity profiles (`cubic-bezier`) to create fluid elastic-rebound mechanics and seamless alpha-channel (`opacity`) fade-ins.
+* **Accessibility (A11y)**: WCAG standards compliance for inclusive user experiences (Descriptive frames, alternative text, accessible anchors, ARIA labels, contrast ratio evaluation, and focus-indicator overrides).
+* **UX/CRO**: Minimalist code structures focused on layout performance, rich media compliance, and reducing cognitive user friction during conversion-critical funnels (Checkout, registration, and lead capture).
+
 
 *(More projects will be added as I progress)*

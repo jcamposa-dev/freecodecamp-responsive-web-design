@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="form-container">
+        <form action="#thankYouModal" method="post" id="contactForm">
+            <h2>Contact Us</h2>
+
+            <label for="name">Name</label>
+            <input id="name" type="text" required name="name" pattern="[A-Za-z\s]{3,15}">
+
+            <label for="email">Email</label>
+            <input id="email" type="email" required name="email">
+
+            <label for="message">Message:</label>
+            <textarea id="message" type="textarea" required name="message"></textarea>
+
+            <button type="submit">Submit</button>
+
+        </form>
+    </div>
+
+    <div id="thankYouModal" class="modal-overlay">
+        <div class="modal-card">
+            <div class="modal-icon">✓</div>
+            <h2>¡Gracias por comunicarte!</h2>
+            <p>Thank you for reaching out to us. We have received your message and will get back to you shortly.</p>
+        <a href="#" class="modal-close-link">Close</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
