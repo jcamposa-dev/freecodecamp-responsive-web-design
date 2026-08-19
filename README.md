@@ -25,7 +25,7 @@ The purpose of this repository is to track my learning progress in modern HTML5,
 * **015-design-a-blog-post-card**: Modern components showcasing image layouts, explicit font hierarchy overrides, and optimized spacing configurations. *(Skills: Visual Design Hierarchy, Typography Scales, Component Architecture, Content Optimization)*
 * **016-build-an-event-flyer-page**: A responsive visual flyer built with deep structural CSS rules, fluid image framing, and optimized typographic scales to maximize visual engagement. *(Skills: Typography Frameworks, Image Layout Constraints, Visual Hierarchy Design)*
 * **017-build-a-job-application-form**: A production-ready semantic application form structured into isolated CSS architecture blocks to eliminate specificity friction, utilizing real-time native validation states for seamless user feedback. *(Skills: CSS Architecture ("Mental Boxes"), Native HTML5 Validation (:valid/:invalid), Advanced Pseudo-classes, UX/CRO Friction Reduction)*
-
+* **018-build-a-colored-boxes-grid**: A high-conversion visual matrix showcasing deep color-theory manipulation, utilizing advanced fluid layout mechanics (Flexbox) to bypass native block-stacking friction and guarantee pixel-perfect responsive proportions. *(Skills: Flexbox Architecture (flex: 1), Layout Physics (Gap over Margin), Spatial Micro-interactions (3D Scale/Shadow Hover), Color Harmonies)*
 
 ### 🛠️ Tech Stack
 
