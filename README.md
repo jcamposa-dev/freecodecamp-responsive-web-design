@@ -28,8 +28,7 @@ The purpose of this repository is to track my learning progress in modern HTML5,
 * **018-build-a-colored-boxes-grid**: A high-conversion visual matrix showcasing deep color-theory manipulation, utilizing advanced fluid layout mechanics (Flexbox) to bypass native block-stacking friction and guarantee pixel-perfect responsive proportions. *(Skills: Flexbox Architecture (flex: 1), Layout Physics (Gap over Margin), Spatial Micro-interactions (3D Scale/Shadow Hover), Color Harmonies)*
 * **019-design-a-contact-form**: A highly interactive contact form utilizing pure CSS state mechanics (`:target`) to deploy elastic modal architectures and micro-interactions without JavaScript dependency, fully optimized for inclusive access. *(Skills: Pure CSS State Engineering, Spatial Physics (Inverted Input-to-Button Movement), Web Accessibility (A11y/:focus-visible), Temporal Curves (Cubic-Bezier Elasticity), Boundary Mechanics (Pointer-Events))*
 * **020-design-a-feature-selection-page**: a feature matrix utilizing grid constraints for strict component symmetry, combined with absolute boundary tracking and conditional inline-logic (`:has()`) to deploy an automated, friction-free floating action submit bar. *(Skills: Grid Alignment Mechanics, Absolute Anchor-to-Parent Bounds, Conditional State Logic, Friction Reduction (UX/CRO), Real-Time Conversion Triggers)*
-
-### 🛠️ Tech Stack
+* **021-build-a-confidential-email-page**: A responsive spy-themed document page utilizing absolute-to-relative layout shifting across standard viewport limits (320px SE), stabilized via container-bound padding boundaries and unified pseudo-state (`:hover`) alpha/blur temporal transitions. *(Skills: Desktop-First Media Queries, Mobile Viewport Boundaries (320px), Layout Reset Engineering, CSS Temporal Transitions, Interaction Design)*
 
 ### 🛠️ Tech Stack
 
