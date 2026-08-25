@@ -33,6 +33,8 @@ The purpose of this repository is to track my learning progress in modern HTML5,
 * **023-build-a-page-of-playing-cards**: A pixel-perfect rendering of a card deck layout leveraging responsive spatial proportions and fluid GPU isolation axes (`translateZ`) to stabilize asymmetric flex contents on ultra-narrow viewports (320px iPhone SE). *(Skills: Dual-Axis Transformations (`scale`), 3D Hardware Render Stabilization, Symmetrical Flex Layouts, Cache Clearance Workflow, Viewport Edge Mitigation)*
 * **024-build-a-newspaper-article**: A responsive newspaper layout leveraging fluid typography via `clamp()`, relative spacing units (`rem`), and optimized document structure. *(Skills: Fluid Typography (`clamp()`), CSS Box Model, Responsive Layouts, Typography Hierarchies)*
 * **025-build-a-tribute-page**: A fully accessible fluid tribute layout leveraging mathematical constraints (`clamp()`) to bridge the gap between viewport zoom mechanics and physical device dimensions (320px Fold to Desktop). *(Skills: Advanced Fluid Typography, Web Accessibility (WCAG 2.1 Zoom Compliance), Element vs. Class Specificity Architecture, Multi-Device Target Emulation (F12 QA Workflow))*
+* **026-build-a-house-painting**: A complex CSS-only geometric art layout showcasing strict coordinate mapping (`top`/`left`) and layer priority stacking without manual z-index inflation. *(Skills: Advanced Positioning Mechanics, Structural CSS Layering, CSS Shapes & Borders, Spatial Math Alignment)*
+
 
 ### 🛠️ Tech Stack
 
