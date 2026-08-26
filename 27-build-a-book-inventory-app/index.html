@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Book Inventory</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <main>
+    <h1>Book Inventory</h1>
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr class="header-sticky">
+            <th>Title</th>
+            <th>Author</th>
+            <th>Category</th>
+            <th>Status</th>
+            <th>Rate</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="read">
+            <td>The Three Musketeers</td>
+            <td>Alexandre Dumas</td>
+            <td>Historical Novel</td>
+            <td><span class="status">Read</span></td>
+            <td>
+              <span class="rate three">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </td>
+          </tr>
+          <tr class="to-read">
+            <td>The Plague</td>
+            <td>Albert Camus</td>
+            <td>Philosophical Novell</td>
+            <td><span class="status">To Read</span></td>
+            <td>
+              <span class="rate">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </td>
+          </tr>
+          <tr class="read">
+            <td>The Metamorphosis</td>
+            <td>Franz Kafka</td>
+            <td>Novella</td>
+            <td><span class="status">Read</span></td>
+            <td>
+              <span class="rate one">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </td>
+          </tr>
+          <tr class="read">
+            <td>Dead Souls</td>
+            <td>Nikolai Gogol</td>
+            <td>Picaresque</td>
+            <td><span class="status">Read</span></td>
+            <td>
+              <span class="rate two">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </td>
+          </tr>
+          <tr class="in-progress">
+            <td>Lord of the Flies</td>
+            <td>William Golding</td>
+            <td>Allegorical Novel</td>
+            <td><span class="status">In Progress</span></td>
+            <td>
+              <span class="rate">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </td>
+          </tr>
+          <tr class="read">
+            <td>Do Androids Dream of Electric Sheep?</td>
+            <td>Philip K. Dick</td>
+            <td>Science Fiction</td>
+            <td><span class="status">Read</span></td>
+            <td>
+              <span class="rate two">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </td>
+          </tr>
+          <tr class="read">
+            <td>1984</td>
+            <td>George Orwell</td>
+            <td>Dystopian</td>
+            <td><span class="status">Read</span></td>
+            <td>
+              <span class="rate three">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </td>
+          </tr>
+          <tr class="in-progress">
+            <td>Dune</td>
+            <td>Frank Herbert</td>
+            <td>Science Fiction</td>
+            <td><span class="status">In Progress</span></td>
+            <td>
+              <span class="rate two">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </td>
+          </tr>
+          <tr class="to-read">
+            <td>Brave New World</td>
+            <td>Aldous Huxley</td>
+            <td>Dystopian</td>
+            <td><span class="status">To Read</span></td>
+            <td>
+              <span class="rate">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </td>
+          </tr>
+          <tr class="read">
+            <td>The Hobbit</td>
+            <td>J.R.R. Tolkien</td>
+            <td>Fantasy</td>
+            <td><span class="status">Read</span></td>
+            <td>
+              <span class="rate three">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </td>
+          </tr>
+          <tr class="read">
+            <td>Fahrenheit 451</td>
+            <td>Ray Bradbury</td>
+            <td>Science Fiction</td>
+            <td><span class="status">Read</span></td>
+            <td>
+              <span class="rate two">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </td>
+          </tr>
+          <tr class="in-progress">
+            <td>The Catcher in the Rye</td>
+            <td>J.D. Salinger</td>
+            <td>Realistic Fiction</td>
+            <td><span class="status">In Progress</span></td>
+            <td>
+              <span class="rate one">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </td>
+          </tr>
+          <tr class="to-read">
+            <td>Crime and Punishment</td>
+            <td>Fyodor Dostoevsky</td>
+            <td>Psychological Novel</td>
+            <td><span class="status">To Read</span></td>
+            <td>
+              <span class="rate">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </td>
+          </tr>
+          <tr class="read">
+            <td>The Great Gatsby</td>
+            <td>F. Scott Fitzgerald</td>
+            <td>Classic Literature</td>
+            <td><span class="status">Read</span></td>
+            <td>
+              <span class="rate two">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </td>
+          </tr>
+          <tr class="read">
+            <td>One Hundred Years of Solitude</td>
+            <td>Gabriel García Márquez</td>
+            <td>Magical Realism</td>
+            <td><span class="status">Read</span></td>
+            <td>
+              <span class="rate three">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </td>
+          </tr>
+          <tr class="in-progress">
+            <td>The Odyssey</td>
+            <td>Homer</td>
+            <td>Epic Poetry</td>
+            <td><span class="status">In Progress</span></td>
+            <td>
+              <span class="rate two">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </td>
+          </tr>
+          <tr class="to-read">
+            <td>Frankenstein</td>
+            <td>Mary Shelley</td>
+            <td>Gothic Horror</td>
+            <td><span class="status">To Read</span></td>
+            <td>
+              <span class="rate">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </td>
+          </tr>
+          <tr class="read">
+            <td>The Stranger</td>
+            <td>Albert Camus</td>
+            <td>Philosophical Novel</td>
+            <td><span class="status">Read</span></td>
+            <td>
+              <span class="rate two">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </td>
+          </tr>
+          <tr class="read">
+            <td>Dracula</td>
+            <td>Bram Stoker</td>
+            <td>Gothic Horror</td>
+            <td><span class="status">Read</span></td>
+            <td>
+              <span class="rate three">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </td>
+          </tr>
+          <tr class="in-progress">
+            <td>Neuromancer</td>
+            <td>William Gibson</td>
+            <td>Cyberpunk</td>
+            <td><span class="status">In Progress</span></td>
+            <td>
+              <span class="rate one">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </td>
+          </tr>
+          <tr class="to-read">
+            <td>The Catch-22</td>
+            <td>Joseph Heller</td>
+            <td>Satire</td>
+            <td><span class="status">To Read</span></td>
+            <td>
+              <span class="rate">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </td>
+          </tr>
+          <tr class="read">
+            <td>Pride and Prejudice</td>
+            <td>Jane Austen</td>
+            <td>Romance Novel</td>
+            <td><span class="status">Read</span></td>
+            <td>
+              <span class="rate three">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </td>
+          </tr>
+          <tr class="read">
+            <td>The Picture of Dorian Gray</td>
+            <td>Oscar Wilde</td>
+            <td>Philosophical Fiction</td>
+            <td><span class="status">Read</span></td>
+            <td>
+              <span class="rate two">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </td>
+          </tr>
+          <tr class="in-progress">
+            <td>Foundation</td>
+            <td>Isaac Asimov</td>
+            <td>Science Fiction</td>
+            <td><span class="status">In Progress</span></td>
+            <td>
+              <span class="rate two">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </td>
+          </tr>
+          <tr class="to-read">
+            <td>Moby-Dick</td>
+            <td>Herman Melville</td>
+            <td>Adventure Fiction</td>
+            <td><span class="status">To Read</span></td>
+            <td>
+              <span class="rate">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </td>
+          </tr>
+          <tr class="read">
+            <td>The Old Man and the Sea</td>
+            <td>Ernest Hemingway</td>
+            <td>Novella</td>
+            <td><span class="status">Read</span></td>
+            <td>
+              <span class="rate two">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </td>
+          </tr>
+
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+</body>
+
+</html>

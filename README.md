@@ -34,6 +34,8 @@ The purpose of this repository is to track my learning progress in modern HTML5,
 * **024-build-a-newspaper-article**: A responsive newspaper layout leveraging fluid typography via `clamp()`, relative spacing units (`rem`), and optimized document structure. *(Skills: Fluid Typography (`clamp()`), CSS Box Model, Responsive Layouts, Typography Hierarchies)*
 * **025-build-a-tribute-page**: A fully accessible fluid tribute layout leveraging mathematical constraints (`clamp()`) to bridge the gap between viewport zoom mechanics and physical device dimensions (320px Fold to Desktop). *(Skills: Advanced Fluid Typography, Web Accessibility (WCAG 2.1 Zoom Compliance), Element vs. Class Specificity Architecture, Multi-Device Target Emulation (F12 QA Workflow))*
 * **026-build-a-house-painting**: A complex CSS-only geometric art layout showcasing strict coordinate mapping (`top`/`left`) and layer priority stacking without manual z-index inflation. *(Skills: Advanced Positioning Mechanics, Structural CSS Layering, CSS Shapes & Borders, Spatial Math Alignment)*
+* **027-build-a-book-inventory-app**: A highly optimized data matrix featuring unified linear-gradient state coloring, custom visual rating systems, and a scroll-bound container with zero-latency sticky tracking headers. *(Skills: Sticky Axis Layouts (`position: sticky`), Advanced Attribute Selection, CSS Component Sizing (`clamp()`), Custom Visual Micro-states, Scroll-Container Clipping Engineering)*
+
 
 
 ### 🛠️ Tech Stack

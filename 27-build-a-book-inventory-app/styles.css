@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    background-color: #EEEEEE;
+    margin-bottom: 2rem;
+    padding: 1rem clamp(1rem, 5vw, 3rem); 
+    max-width: 900px;  
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+h1 {
+    font-size: clamp(2rem, 1.5rem + 2.5vw, 3.5rem);
+    line-height: 1.2;
+    margin-bottom: 0.5em;
+    padding-top: 2rem;
+}
+
+.table-container {
+  width: 100%;
+  max-height: 400px;
+  overflow-y: auto;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+table {
+  border-collapse: collapse; 
+  border-spacing: 0;
+  margin-bottom: 5rem;
+}
+
+tr[class="header-sticky"] th{
+  Background-image: linear-gradient( rgb(70, 211, 247),rgb(17, 214, 220));
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+tr[class="read"] {
+  Background-image: linear-gradient( rgb(170, 229, 170),rgb(122, 245, 122) );
+}
+
+tr[class="to-read"] {
+  Background-image: linear-gradient( rgb(238, 228, 228), rgb(181, 181, 181) );
+}
+
+tr[class="in-progress"] {
+  Background-image: linear-gradient( rgb(255, 230, 184), rgb(234, 194, 119));
+}
+
+span {
+  display: inline-block;
+}
+
+tr[class="to-read"] span[class="status"] {
+  height: 1.85em;
+  width: 7em;
+  padding: 0.3rem;
+  border: 2px solid rgb(246, 44, 44);
+  border-radius: 20% / 60%;
+  Background-image: linear-gradient( rgb(227, 109, 109), rgb(246, 44, 44));
+}
+
+tr[class="read"] span[class="status"] {
+  height: 1.85em;
+  width: 7em;
+  padding: 0.3rem;
+  border: 2px solid rgb(41, 168, 41);
+  border-radius: 20% / 60%;
+  Background-image: linear-gradient( rgb(40, 193, 40), rgb(7, 182, 7));
+}
+
+tr[class="in-progress"] span[class="status"] {
+  height: 1.85em;
+  width: 7em;
+  padding: 0.3rem;
+  border: 2px solid rgb(209, 146, 29);
+  border-radius: 20% / 60%;
+  Background-image: linear-gradient( rgb(236, 187, 97), rgb(255, 164, 19));
+}
+
+span[class="status"],
+span[class^="rate"] {
+  height: 1.85em;
+  width: 7em;
+  padding: 0.3em;
+} 
+
+span[class^="rate"] > span {
+  border: 0.1em solid hsl(0, 0%, 50%);
+  border-radius: 50%;
+  background-color: hsl(0, 15%, 95%);
+  height: 100%;
+  width: 20%;
+  margin: 0.1em;
+}
+
+
+span[class~="one"] :nth-child(1) {
+  background-image: linear-gradient(hsl(50, 100%, 70%), hsl(50, 100%, 50%));
+}
+
+span[class~="two"] :nth-child(1), 
+span[class~="two"] :nth-child(2) {
+    background-image: linear-gradient(hsl(50, 100%, 70%), hsl(50, 100%, 50%));
+}
+
+span[class~="three"] span {
+    background-image: linear-gradient(hsl(50, 100%, 70%), hsl(50, 100%, 50%));
+}
+
+span[class~="three"] :nth-child(1), 
+span[class~="three"] :nth-child(2),
+span[class~="three"] :nth-child(3) {
+    background-image: linear-gradient(hsl(50, 100%, 70%), hsl(50, 100%, 50%));
+}
