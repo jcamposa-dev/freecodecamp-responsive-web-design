@@ -1,0 +1,119 @@
+*,
+::before,
+::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.newspaper-layout {
+    display: grid;
+    /* En móviles, todo se acomoda en una fila debajo de la otra */
+    grid-template-areas:
+        "title"
+        "cover-image"
+        "feature-article"
+        "secondary-article"
+        "small-article1"
+        "small-article2"
+        "small-article3";
+    grid-template-columns: 1fr; /* Una sola columna que ocupa todo el ancho */
+    grid-template-rows: auto;    /* Las filas se adaptan solas al contenido */
+    gap: 1.5rem;
+    margin: 1rem;
+    text-align: justify;
+}
+
+.title {
+    grid-area: title;
+    background-color: #1b1b32;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.feature-article {
+    grid-area: feature-article;
+    background-color: #f9f9f9;
+}
+
+.secondary-article {
+    grid-area: secondary-article;
+    background-color: #f9f9f9;
+}
+
+.cover-image {
+    grid-area: cover-image;
+}
+
+.small-article1 {
+    grid-area: small-article1;
+    background-color: #e9e9e9;
+}
+
+.small-article2 {
+    grid-area: small-article2;
+    background-color: #e9e9e9;
+}
+
+.small-article3 {
+    grid-area: small-article3;
+    background-color: #e9e9e9;
+}
+
+.cover-image {
+    grid-area: cover-image;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color: #dddddd;
+    padding: 1rem;
+}
+
+.cover-image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+h1, h2, h3 {
+    margin: 0.5rem 1rem;
+}
+
+p {
+    margin: 0.5rem 1rem;
+}
+
+/* ==========================================
+   MEDIA QUERY: Se activa en Pantallas Grandes (Escritorio)
+   ========================================== */
+@media (min-width: 750px) {
+    .newspaper-layout {
+        /* Aquí restauramos tu diseño original de 3 columnas */
+        grid-template-areas:
+            "title title title"
+            "feature-article feature-article cover-image"
+            "secondary-article secondary-article cover-image"
+            "small-article1 small-article2 small-article3";
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto 1fr 1fr 1fr;
+    }
+}
