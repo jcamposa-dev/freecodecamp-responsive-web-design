@@ -10,8 +10,18 @@
     --color-text: #000000;
     --color-icon: #ff8c00;
     --color-btn: #F1C40F;
+    --color-text-header: #e0e0e0;
     --font-base: "Times New Roman", serif;
     --border-link: 2px solid var(--color-text);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-principal: #121212;  
+        --bg-secundary: #1e1e1e;  
+        --color-text: #e0e0e0; 
+        --border-link: 2px solid #333333; 
+    }
 }
 
 *,
@@ -68,21 +78,7 @@ a:focus {
     border: var(--border-link)          ;
 }
 
-/* 🌙 MODO OSCURO (Automático) */
-@media (prefers-color-scheme: dark) {
-    :root {
-        /* Sobrescribimos las variables originales con tonos oscuros y descansados */
-        --bg-principal: #121212;  /* Gris oscuro profundo (Tu --bg-body) */
-        --bg-secundary: #1e1e1e;  /* Gris elevado para componentes (Tu --bg-surface) */
-        --color-text: #e0e0e0;    /* Blanco roto para no encandilar (Tu --text-primary) */
-        
-        /* Opcional: Suavizar el borde para que no resalte demasiado en la oscuridad */
-        --border-link: 2px solid #333333; 
-    }
-    #header-img {
-        filter: invert(1) brightness(2);
-    }
-}
+
 
 
 /* #endregion */
@@ -123,10 +119,9 @@ body {
     justify-content: space-between;
     text-align: center;
     padding-bottom: 1rem;
-    background-color: rgba(18, 18, 18, 0.8); /* Fondo semi-transparente */
+    background-color: rgba(18, 18, 18, 0.8); 
     backdrop-filter: blur(10px); 
     -webkit-backdrop-filter: blur(10px);
-    
 }
 
 #hero-banner {
@@ -188,7 +183,8 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
-    color: var(--text-primary)
+    color: var(--text-primary);
+    filter: invert(1) brightness(2);
 }
 
 #nav-bar .nav-link {
@@ -196,6 +192,7 @@ footer {
     padding-bottom: 4px;
     transition: color 0.3s ease, border-color 0.3s ease;
     border-bottom: 2px solid transparent;
+    color: var(--color-text-header);
 }
 
 #features, 
