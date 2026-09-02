@@ -16,6 +16,7 @@
     --color-btn: #F1C40F;         
     --color-text-btn: #000000;    
     --border-link: 2px solid var(--color-text);
+    --shadow-color: rgba(201, 148, 75, 0.4);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -27,7 +28,8 @@
         --color-icon: #ffaa44;       
         --color-btn: #f39c12;         
         --color-text-btn: #121212;  
-        --border-link: 2px solid var(--color-text); 
+        --border-link: 2px solid var(--color-text);
+        --shadow-color: #e0e0e0;
     }
 }
 
@@ -125,6 +127,7 @@ body {
     position: sticky;
     grid-area: header;
     top: 0;
+    border-top: none !important;
     align-self: start;  
     background-color: var(--bg-principal);
     flex-direction: column;
@@ -264,7 +267,15 @@ footer {
     grid-template-columns: 1fr;
     gap: 10px;
     margin: 1.5rem 1rem;
+    grid-template-areas:
+        "valve" 
+        "bass" 
+        "tenor";
 }
+
+#tenor { grid-area: tenor; }
+#bass  { grid-area: bass; }
+#valve { grid-area: valve; }
 
 .level {
     width: 100%;
@@ -305,10 +316,13 @@ footer {
     border-radius: 5px;
     cursor: pointer;
     transition: filter 0.3s ease;
+    font-weight: bold;
 }
 
 .product-btn:hover {
-    filter: brightness(0.85);
+    filter: brightness(1.2);
+    box-shadow: 0 0 10px var(--shadow-color);
+    transition: filter 0.3s ease;
 }
 
 #footer ul {
@@ -384,10 +398,12 @@ span.copyright {
     }
 
     #pricing {
+        display: grid;
         grid-template-columns: repeat(3,1fr);
         gap: 30px;
         max-width: 800px;
         margin: 6rem auto 6rem  auto;
+        grid-template-areas: "valve bass tenor"; 
     }
 
     .product:hover {
@@ -400,9 +416,14 @@ span.copyright {
         border-top-right-radius: 3px;
     }
 
-    .product    {
+    .product {
         width: 100%;
         margin: 0; 
+    }
+    .product-btn:hover {
+    filter: brightness(1.1);
+    box-shadow: 5px 0 20px var(--shadow-color);
+    transition: filter 0.3s ease;
     }
     footer {
         box-sizing: border-box;
