@@ -1,0 +1,366 @@
+/* #region RESET & VARIABLES */
+/* ==========================================================================
+    1. RESET & VARIABLES (Configuración Base)
+   ========================================================================== */
+
+:root {
+    /* Tus variables de colores, fuentes y espaciados aquí */
+    --bg-principal: #eeeeee;
+    --bg-secundary: #DDDDDD;
+    --color-text: #000000;
+    --color-icon: #ff8c00;
+    --color-btn: #F1C40F;
+    --font-base: "Times New Roman", serif;
+    --border-link: 2px solid var(--color-text);
+}
+
+*,
+::before,
+::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    min-height: 100%;
+    margin: 0;
+
+}
+
+ol, ul {
+    list-style: none;
+}
+
+input   {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-text);
+    transition: color 0.3s ease; /* Hace que el cambio de color sea suave */
+}
+
+a:hover {
+    color: var(--color-icon);
+}
+
+a:active {
+    transform: scale(0.98); 
+}
+
+a:focus {
+    border: var(--border-link)          ;
+}
+
+/* #endregion */
+/* #region SITE LAYOUT */
+/* ==========================================================================
+    2. SITE LAYOUT (Tu Superestructura de Grid Areas - Mobile First)
+   ========================================================================== */
+
+html,
+body {
+    width: 100%;
+    max-width: 100%;
+}
+
+body {
+    background-color: var(--bg-principal);
+    display: grid;
+    font-family: var(--font-base);
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "header"
+        "hero-banner"
+        "features"
+        "how-it-works"
+        "pricing"
+        "footer";
+}
+
+#header {
+    display: flex;
+    position: sticky;
+    grid-area: header;
+    top: 0;
+    align-self: start;  
+    background-color: var(--bg-principal);
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+#hero-banner {
+    grid-area: hero-banner;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    margin: 2rem 1rem 3rem;
+}
+
+#hero-form {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;   
+    gap: 10px;              
+}
+
+#features {
+    grid-area: features;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.grid {
+    margin: 0 1rem 2rem;
+    text-align: justify; 
+}
+
+#how-it-works {
+    grid-area: how-it-works;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin-top: 1rem;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: var(--bg-secundary);
+    padding: 1.5rem;
+    
+}
+
+/* #endregion */
+/* #region BLOCKS / COMPONENTS */
+/* ==========================================================================
+    3. BLOCKS / COMPONENTS (Estilos internos de cada sección)
+   ========================================================================== */
+
+#header-img {
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#nav-bar .nav-link {
+    font-size: 1rem;
+    padding-bottom: 4px;
+    transition: color 0.3s ease, border-color 0.3s ease;
+    border-bottom: 2px solid transparent;
+}
+
+#features, 
+#how-it-works, 
+#pricing {
+    scroll-margin-top: 140px; 
+}
+
+#hero-form input[type="email"]  {
+    width: 100%;
+    max-width: 280px; 
+    padding: 5px;
+}
+
+#hero-banner input[type="submit"], 
+#hero-banner button {
+    display: inline-block;
+    padding: 0.6rem 1.5rem;
+    border: 2px solid var(--color-btn);
+    background-color: var(--color-btn);
+    border-radius: 5px;
+    font-weight: bold;
+    transition: filter 0.3s ease;
+    width: 100%;
+    max-width: 280px
+}
+
+#hero-banner input[type="submit"]:hover, 
+#hero-banner button:hover {
+    filter: brightness(0.85);
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#how-it-works iframe, 
+#how-it-works video {
+    width: 90%;      
+    max-width: 560px;    
+    border-radius: 5px;  
+}
+
+#pricing {
+    grid-area: pricing;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    margin: 1.5rem 1rem;
+}
+
+
+.level {
+    width: 100%;
+    background-color: var(--bg-secundary);
+    padding: 0.8rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;       
+    justify-content: space-between; 
+    border: var(--border-link); 
+    border-radius: 5px;
+    overflow: hidden;
+    min-height: 280px;
+    width: 90%;             
+    max-width: 350px;       
+    margin: 1rem auto 20px auto; 
+    padding-bottom: 1.5rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product li {
+    margin-top: 0.3rem;
+    text-align: center;
+}
+
+.product-btn {
+    padding: 0.5rem 1rem;
+    border: 2px solid var(--color-btn);
+    background-color: var(--color-btn);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: filter 0.3s ease;
+}
+
+.product-btn:hover {
+    filter: brightness(0.85);
+}
+
+#footer ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#footer li {
+    padding: 0 1rem;
+}
+
+span.copyright {
+    display: block;     
+    margin-top: 0.5rem;
+    opacity: 0.85;
+    
+}
+
+/* #endregion */
+/* #region MEDIA QUERIES (PC) */
+/* ==========================================================================
+    4. MEDIA QUERIES (PC)
+   ========================================================================== */
+
+@media (min-width: 900px) {
+    #header {
+        flex-direction: row;
+        padding: 1.5rem;
+    }
+    
+    #nav-bar li {
+        display: inline-flex;
+        flex-direction: row;
+        padding: 1rem;
+        font-size: 1.2rem;
+    }
+    
+
+    #nav-bar .nav-link {
+        font-size: 1.2rem;
+    }
+
+    #nav-bar .nav-link:hover {
+        color: var(--color-icon);
+        border-color: var(--color-icon);
+        border-bottom: 2px solid var(--color-icon);
+    }
+
+    .icon svg {
+        width: 45px;
+        height: 45px;
+        fill: var(--color-icon);
+    }
+    
+    .grid {
+        display: flex;
+        flex-direction: row;    
+        align-items: center;
+        text-align: left; 
+        gap: 30px;
+        margin-bottom: 2.5rem;
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 4rem; 
+    }
+
+    #how-it-works { 
+    margin: 3rem;
+    }
+
+    #pricing {
+        grid-template-columns: repeat(3,1fr);
+        gap: 30px;
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .product:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+    }
+
+    .level {
+        border-top-left-radius: 3px;
+        border-top-right-radius: 3px;
+    }
+
+    .product    {
+        width: 100%;
+        margin: 0; 
+    }
+}
+/* #endregion */

@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Product Landing Page</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+
+    <body>
+        <header id="header">
+            <div class="logo">
+                <img
+                    id="header-img"
+                    src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png"
+                    alt="original trombones logo"
+                />
+            </div>
+
+            <nav id="nav-bar">
+                <ul>
+                    <li>
+                        <a href="#features" class="nav-link">Features</a>
+                    </li>
+                    <li>
+                        <a href="#how-it-works" class="nav-link"
+                            >How It Works</a
+                        >
+                    </li>
+                    <li>
+                        <a href="#pricing" class="nav-link">Pricing</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section id="hero-banner">
+                <h2>Handcrafted, home-made masterpieces</h2>
+                <form
+                    id="hero-form"
+                    action="https://www.freecodecamp.org/email-submit"
+                >
+                    <input
+                        name="email"
+                        id="email"
+                        type="email"
+                        placeholder="Enter your email address"
+                        required
+                    />
+                    <input
+                        id="submit-hero"
+                        type="submit"
+                        class="btn"
+                        value="Get Started"
+                    />
+                </form>
+            </section>
+
+            <section id="features">
+                <div class="grid">
+                    <div class="icon">
+                        <svg
+                            fill="#000000"
+                            viewBox="-64 0 512 512"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g
+                                id="SVGRepo_tracerCarrier"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            ></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    d="M216 23.86c0-23.8-30.65-32.77-44.15-13.04C48 191.85 224 200 224 288c0 35.63-29.11 64.46-64.85 63.99-35.17-.45-63.15-29.77-63.15-64.94v-85.51c0-21.7-26.47-32.23-41.43-16.5C27.8 213.16 0 261.33 0 320c0 105.87 86.13 192 192 192s192-86.13 192-192c0-170.29-168-193-168-296.14z"
+                                ></path>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="desc">
+                        <h2>Premium Materials</h2>
+                        <p>
+                            Our trombones use the shiniest brass which is
+                            sourced locally. This will increase the longevity of
+                            your purchase.
+                        </p>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="icon">
+                        <svg
+                            fill="#000000"
+                            viewBox="0 -64 640 640"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g
+                                id="SVGRepo_tracerCarrier"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            ></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    d="M624 352h-16V243.9c0-12.7-5.1-24.9-14.1-33.9L494 110.1c-9-9-21.2-14.1-33.9-14.1H416V48c0-26.5-21.5-48-48-48H48C21.5 0 0 21.5 0 48v320c0 26.5 21.5 48 48 48h16c0 53 43 96 96 96s96-43 96-96h128c0 53 43 96 96 96s96-43 96-96h48c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16zM160 464c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm320 0c-26.5 0-48-21.5-48-48s21.5-48 48-48 48 21.5 48 48-21.5 48-48 48zm80-208H416V144h44.1l99.9 99.9V256z"
+                                ></path>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="desc">
+                        <h2>Fast Shipping</h2>
+                        <p>
+                            We make sure you receive your trombone as soon as we
+                            have finished making it. We also provide free
+                            returns if you are not satisfied.
+                        </p>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="icon">
+                        <svg
+                            fill="#000000"
+                            viewBox="0 0 512 512"
+                            xmlns="http://www.w3.org/2000/svg"
+                            transform="rotate(0)"
+                        >
+                            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                            <g
+                                id="SVGRepo_tracerCarrier"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke="#CCCCCC"
+                                stroke-width="1.024"
+                            ></g>
+                            <g id="SVGRepo_iconCarrier">
+                                <path
+                                    fill-rule="evenodd"
+                                    d="M384,-2.84217094e-14 L384,74.666 L426.666667,74.6666667 L426.666667,181.333333 L384,181.333 L384,256 L-2.13162821e-14,256 L-2.13162821e-14,-2.84217094e-14 L384,-2.84217094e-14 Z M341.333333,42.6666667 L42.6666667,42.6666667 L42.6666667,213.333333 L341.333333,213.333333 L341.333333,42.6666667 Z M320,64 L320,192 L64,192 L64,64 L320,64 Z"
+                                    transform="translate(42.667 128)"
+                                ></path>
+                            </g>
+                        </svg>
+                    </div>
+                    <div class="desc">
+                        <h2>Quality Assurance</h2>
+                        <p>
+                            For every purchase you make, we will ensure there
+                            are no damages or faults and we will check and test
+                            the pitch of your instrument.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="how-it-works">
+                <iframe
+                    id="video"
+                    height="315"
+                    src="https://www.youtube-nocookie.com/embed/y8Yv4pnO7qc?rel=0&amp;controls=0&amp;showinfo=0"
+                    frameborder="0"
+                    allowfullscreen=""
+                ></iframe>
+            </section>
+
+            <section id="pricing">
+                <div id="tenor" class="product">
+                    <div class="level">Tenor Trombone</div>
+                    <h2>$600</h2>
+                    <ol>
+                        <li>Good for beginners</li>
+                        <li>Excellent sound quality</li>
+                        <li>Great for Jazz Bands</li>
+                        <li>Nice and shiny</li>
+                    </ol>
+                    <button class="product-btn">Select</button>
+                </div>
+                <div id="bass" class="product">
+                    <div class="level">Bass Trombone</div>
+                    <h2>$900</h2>
+                    <ol>
+                        <li>Sound quality is unmatched</li>
+                        <li>Best for professionals</li>
+                        <li>Absolutely stunning</li>
+                        <li>Durable and long lasting</li>
+                    </ol>
+                    <button class="product-btn">Select</button>
+                </div>
+                <div id="valve" class="product">
+                    <div class="level">Valve Trombone</div>
+                    <h2>$1200</h2>
+                    <ol>
+                        <li>Plays similar to a Trumpet</li>
+                        <li>Great for Jazz Bands</li>
+                        <li>Beautiful in sound and appearance</li>
+                        <li>Just amazing</li>
+                    </ol>
+                    <button class="product-btn">Select</button>
+                </div>
+            </section>
+        </main>
+    </body>
+    <footer id="footer">
+        <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#"></a>Terms</li>
+            <li><a href="#"></a>Contact</li>
+        </ul>
+        <span class="copyright">Copyright 2016, Original Trombones</span>
+    </footer>
+</html>
