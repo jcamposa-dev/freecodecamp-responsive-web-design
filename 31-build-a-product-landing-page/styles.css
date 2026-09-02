@@ -4,14 +4,17 @@
    ========================================================================== */
 
 :root {
-    /* Tus variables de colores, fuentes y espaciados aquí */
+    --font-titles: 'Poppins', sans-serif;
+    --font-body: 'Roboto', sans-serif;
+    --weight-regular: 400;
+    --weight-semibold: 600;
     --bg-principal: #eeeeee;
     --bg-secundary: #DDDDDD;
     --color-text: #000000;
-    --color-icon: #ff8c00;
-    --color-btn: #F1C40F;
-    --color-text-header: #e0e0e0;
-    --font-base: "Times New Roman", serif;
+    --color-text-header: #333333; 
+    --color-icon: #ff8c00;        
+    --color-btn: #F1C40F;         
+    --color-text-btn: #000000;    
     --border-link: 2px solid var(--color-text);
 }
 
@@ -20,7 +23,11 @@
         --bg-principal: #121212;  
         --bg-secundary: #1e1e1e;  
         --color-text: #e0e0e0; 
-        --border-link: 2px solid #333333; 
+        --color-text-header: #ffffff; 
+        --color-icon: #ffaa44;       
+        --color-btn: #f39c12;         
+        --color-text-btn: #121212;  
+        --border-link: 2px solid var(--color-text); 
     }
 }
 
@@ -34,7 +41,17 @@
 
 body, h1, h2, h3, p, li, span {
     color: var(--color-text);
-    transition: color 0.3s ease; /* Hace que el cambio entre modo claro y oscuro sea suave */
+    transition: color 0.3s ease; 
+}
+
+h1, h2, h3 {
+    font-family: var(--font-titles);
+    font-weight: var(--weight-semibold);
+}
+
+p, a, li {
+    font-family: var(--font-body);
+    font-weight: var(--weight-regular);
 }
 
 html {
@@ -49,7 +66,6 @@ html {
 body {
     min-height: 100%;
     margin: 0;
-
 }
 
 ol, ul {
@@ -77,9 +93,6 @@ a:active {
 a:focus {
     border: var(--border-link)          ;
 }
-
-
-
 
 /* #endregion */
 /* #region SITE LAYOUT */
@@ -122,6 +135,7 @@ body {
     background-color: rgba(18, 18, 18, 0.8); 
     backdrop-filter: blur(10px); 
     -webkit-backdrop-filter: blur(10px);
+    background-color: rgba(18, 18, 18, 0.9);
 }
 
 #hero-banner {
@@ -192,7 +206,7 @@ footer {
     padding-bottom: 4px;
     transition: color 0.3s ease, border-color 0.3s ease;
     border-bottom: 2px solid transparent;
-    color: var(--color-text-header);
+    color: #ffffff;
 }
 
 #features, 
@@ -247,7 +261,6 @@ footer {
     gap: 10px;
     margin: 1.5rem 1rem;
 }
-
 
 .level {
     width: 100%;
@@ -370,8 +383,7 @@ span.copyright {
         grid-template-columns: repeat(3,1fr);
         gap: 30px;
         max-width: 800px;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 6rem auto 6rem  auto;
     }
 
     .product:hover {
