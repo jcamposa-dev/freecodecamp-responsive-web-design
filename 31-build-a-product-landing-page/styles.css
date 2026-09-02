@@ -209,6 +209,10 @@ footer {
     color: #ffffff;
 }
 
+#nav-bar .nav-link:hover {
+    color: var(--color-icon)
+}
+
 #features, 
 #how-it-works, 
 #pricing {
