@@ -96,6 +96,11 @@ a:focus {
     border: var(--border-link)          ;
 }
 
+iframe {
+    border: none;
+}
+
+
 /* #endregion */
 /* #region SITE LAYOUT */
 /* ==========================================================================
@@ -139,6 +144,7 @@ body {
     backdrop-filter: blur(10px); 
     -webkit-backdrop-filter: blur(10px);
     background-color: rgba(18, 18, 18, 0.9);
+    z-index: 99999;
 }
 
 #hero-banner {
