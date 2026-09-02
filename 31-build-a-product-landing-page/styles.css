@@ -126,6 +126,7 @@ body {
     background-color: rgba(18, 18, 18, 0.8); /* Fondo semi-transparente */
     backdrop-filter: blur(10px); 
     -webkit-backdrop-filter: blur(10px);
+    
 }
 
 #hero-banner {
@@ -324,6 +325,7 @@ span.copyright {
     #header {
         flex-direction: row;
         padding: 1.5rem;
+        box-sizing: border-box;
     }
     
     #nav-bar li {
@@ -388,6 +390,9 @@ span.copyright {
     .product    {
         width: 100%;
         margin: 0; 
+    }
+    footer {
+        box-sizing: border-box;
     }
 }
 /* #endregion */
